@@ -1,21 +1,18 @@
-# Counting DNA Nucleotides
-**task url** https://rosalind.info/problems/dna/
+# Transcribing DNA into RNA
+**task url** https://rosalind.info/problems/rna/
 ## Problem
 
-A string is simply an ordered collection of symbols selected from some alphabet and formed into a word; the length of a string is the number of symbols that it contains.
+An RNA string is a string formed from the alphabet containing 'A', 'C', 'G', and 'U'.
+Given a DNA string _t_ corresponding to a coding strand, its transcribed RNA string _u_ is formed by replacing all occurrences of 'T' in _t_ with 'U' in _u_.
+**Given:** A DNA string _t_ having length at most 1000 nt
 
-An example of a length 21 DNA string (whose alphabet contains the symbols 'A', 'C', 'G', and 'T') is "ATGCTTCAGAAAGGTCTTACG."
-
-**Given:** A DNA string _s_ of length at most 1000 nt.
-
-**Return:** Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in _s_.
-
+**Return:** The transcribed RNA string of _t_.
 ### Sample Dataset
 ```
-AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC
+GATGGAACTTGACTACGTAAATT
 ```
 ### Sample Output
 
 ```
-20 12 17 21
+GAUGGAACUUGACUACGUAAAUU
 ```
