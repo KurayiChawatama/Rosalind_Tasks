@@ -1,6 +1,6 @@
 # Rosalind Tasks Repository
 
-![image](https://github.com/KurayiChawatama/Rosalind_Tasks/assets/142725139/8b51a2a0-aec2-4870-9d68-18fe372ef34a)
+![image](https://github.com/KurayiChawatama/Rosalind_Tasks/assets/142725139/6e86a487-9c88-4eaf-a344-540c3d6abc6c)
 
 **url** https://rosalind.info/problems/list-view/
 
