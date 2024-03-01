@@ -37,5 +37,6 @@ def protein_mass(protein):
 
     return mass
 
+
 if __name__ == "__main__":
     main()
